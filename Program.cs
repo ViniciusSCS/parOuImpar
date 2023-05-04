@@ -10,7 +10,7 @@ namespace ParOuImpar
             string parOuImpar;
 
             Console.Write("Entre com um número inteiro: ");
-            x = int.Parse(Console.ReadLine());
+            x = int.Parse(Console.ReadLine()!);
 
             parOuImpar = x % 2 == 0 ? "PAR!" : "IMPAR!";
 
